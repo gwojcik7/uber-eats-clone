@@ -1,0 +1,28 @@
+.search {
+    &__input {
+        height: 56px;
+        width: 100%;
+        border: none;
+        font-size: 16px;
+        font-weight: 400;
+        padding-left: 50px;
+        background-color: #fff;
+        background-image: url(../img/icon-map-pin.svg);
+        background-repeat: no-repeat;
+        background-position: 15px center;
+        background-size: 24px;
+    }
+
+    &__sign-in {
+        font-size: 14px;
+        a {
+            color: inherit;
+            
+        }
+    }
+
+    button.submit {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+}

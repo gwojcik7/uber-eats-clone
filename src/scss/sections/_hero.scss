@@ -1,0 +1,24 @@
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+    &__bg {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 0;
+    }
+
+    &__content {
+        position: relative;
+        padding: 0 15px;
+    }
+
+    &__heading {
+        font-size: 36px;
+    }
+}

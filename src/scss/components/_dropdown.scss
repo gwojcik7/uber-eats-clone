@@ -1,0 +1,57 @@
+.dropdown {
+    $p: &;
+    position: relative;
+    &__btn {
+        display: block;
+        width: 100%;
+        background-color: #fff;
+        border: none;
+        text-align: left;
+        height: 56px;
+        padding: 0 20px;
+        font-size: 16px;
+        background-color: #fff;
+        background-image: url(../img/icon-chevron.svg);
+        background-repeat: no-repeat;
+        background-position: calc(100% - 15px) center;
+        background-size: 24px;
+        border-bottom: 1px solid transparent;
+    }
+
+    &.active {
+        #{$p}__list {
+            display: block;
+        }
+        #{$p}__btn {
+            border-bottom-color: #e2e2e2;
+        }
+    }
+
+    &__list {
+        display: none;
+        background-color: #fff;
+        position: absolute;
+        width: 100%;
+        margin: 0;
+        padding-left: 0;
+        list-style-type: none;
+        li {
+            height: 56px;
+        }
+
+        a {
+            padding: 0 20px;
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            color: inherit;
+            text-decoration: none;
+            transition: background-color 0.2s ease;
+            &:hover {
+                background-color: #ececec;
+            }
+        }
+    }
+    
+}
