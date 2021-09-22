@@ -1,0 +1,13 @@
+.hamburger-menu {
+    padding: 0;
+    border: none;
+    padding: 15px;
+    background: none;
+    .line {
+        display: block;
+        width: 18px;
+        height: 3px;
+        margin-bottom: 3px;
+        background: #000;
+    }
+}
