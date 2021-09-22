@@ -1,0 +1,61 @@
+.main-menu {
+    $p: &;
+    $timing-function: ease;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(#000, 0.5);
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background: transparent;
+    pointer-events: none;
+    transition: background-color 0.3s $timing-function;
+
+    &__content {
+        background: #fff;
+        width: 300px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 25px 25px 50px;
+        transform: translateX(-100%);
+        transition: transform 0.5s $timing-function
+    }
+
+    &.active {
+        background: rgba(#000,0.9);
+        pointer-events: all;
+
+        #{$p}__content {
+            transform: translateX(0);
+        }
+    }
+
+    .sign-in {
+        font-size: 18px;
+        font-weight: 500;
+        border-radius: 0;
+        margin-bottom: 25px;
+    }
+
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+        font-size: 14px;
+        li {
+            margin-bottom: 17px;
+            font-weight: 500;
+        }
+        a {
+            color: inherit;
+            text-decoration: none;
+            line-height: 1.4;
+        }
+    }
+
+
+    
+}

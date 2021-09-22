@@ -5,9 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Uber Eats | Food Delivery and Takeout</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/site.css" />
+    <link href="http://fonts.cdnfonts.com/css/uber-move-text" rel="stylesheet">
   </head>
   <body>
+    <nav class="main-menu">
+      <div class="main-menu__content">
+        <div class="main-menu__top">
+          <a href="#" class="button button--secondary button--block sign-in" title="Zaloguj się">
+            Zaloguj się
+          </a>
+          <ul>
+            <li>
+              <a href="#">Utwórz konto firmowe</a>
+            </li>
+            <li>
+              <a href="#">Dodaj swoją restaurację</a>
+            </li>
+            <li>
+              <a href="#">Zarejestruj się, aby realizować dostawy</a>
+            </li>
+          </ul>
+        </div>
+        <div class="main-menu__bottom">
+          <div class="app-cta">
+            <div class="app-cta__top">
+              <img src="img/uber-app-cta.svg" width="56" height="56" alt="Download app" loading="lazy">
+              <h4 class="app-cta__heading">
+                W aplikacji wybór jest jeszcze większy.
+              </h4>
+            </div>
+            <div class="app-cta__bottom">
+              <a href="#" class="button app-cta__link">
+                <img src="img/icon-android.svg" width="16" height="16" alt="Android icon" loading="lazy"> Pobierz aplikację
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
     <div id="page">
       <header class="main-header">
         <div class="main-header__left">
@@ -21,11 +57,12 @@
           </a>
         </div>
         <div class="div main-header__right">
-          <a href="#" class="sign-in" title="Zaloguj się"> Zaloguj się </a>
+          <a href="#" class="button button--primary sign-in" title="Zaloguj się"> Zaloguj się </a>
         </div>
       </header>
       <main class="main-content">
         <section class="hero">
+          <img src="img/uber-eats-bg-1.jpg" alt="background-1">
           <div class="hero__content">
             <h1 class="hero__heading">Zamów śniadania, lunche i obiady.</h1>
             <form class="search" method="GET" action="#">
@@ -243,6 +280,6 @@
         </div>
       </footer>
     </div>
-    <script src="js/script.js"></script>
+    <script src="js/site.js"></script>
   </body>
 </html>
