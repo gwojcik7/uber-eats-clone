@@ -81,15 +81,15 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 1);
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/js/script.js":
-/*!**************************!*\
-  !*** ./src/js/script.js ***!
-  \**************************/
+/***/ "./src/js/site.js":
+/*!************************!*\
+  !*** ./src/js/site.js ***!
+  \************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -97,17 +97,29 @@
 
 /***/ }),
 
-/***/ 1:
-/*!********************************!*\
-  !*** multi ./src/js/script.js ***!
-  \********************************/
+/***/ "./src/scss/site.scss":
+/*!****************************!*\
+  !*** ./src/scss/site.scss ***!
+  \****************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./src/js/script.js */"./src/js/script.js");
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
+/***/ 0:
+/*!***************************************************!*\
+  !*** multi ./src/scss/site.scss ./src/js/site.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ./src/scss/site.scss */"./src/scss/site.scss");
+module.exports = __webpack_require__(/*! ./src/js/site.js */"./src/js/site.js");
 
 
 /***/ })
 
 /******/ });
-//# sourceMappingURL=script.js.map
+//# sourceMappingURL=site.js.map
