@@ -81,33 +81,33 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 1);
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/js/script.js":
-/*!**************************!*\
-  !*** ./src/js/script.js ***!
-  \**************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-
-/***/ 1:
-/*!********************************!*\
-  !*** multi ./src/js/script.js ***!
-  \********************************/
+/***/ "./src/scss/style.scss":
+/*!*****************************!*\
+  !*** ./src/scss/style.scss ***!
+  \*****************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./src/js/script.js */"./src/js/script.js");
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
+/***/ 0:
+/*!***********************************!*\
+  !*** multi ./src/scss/style.scss ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! ./src/scss/style.scss */"./src/scss/style.scss");
 
 
 /***/ })
 
 /******/ });
-//# sourceMappingURL=script.js.map
+//# sourceMappingURL=style.js.map
