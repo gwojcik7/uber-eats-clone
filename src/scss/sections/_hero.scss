@@ -16,9 +16,16 @@
     &__content {
         position: relative;
         padding: 0 15px;
+
+        @media (min-width: 992px) {
+            margin-left: 30px;
+        }
     }
 
     &__heading {
         font-size: 36px;
+        @media (min-width: 992px) {
+            font-size: 52px;
+        }
     }
 }
