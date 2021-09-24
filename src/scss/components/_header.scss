@@ -10,6 +10,7 @@
   height: 72px;
   border-bottom: 2px solid transparent;
   transition: background-color 0.2s ease, border-bottom-color 0.2s ease;
+  z-index: 9;
 
   @media (min-width: 992px) {
     padding: 0 22px;

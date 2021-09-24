@@ -1,0 +1,49 @@
+.search {
+    @media (min-width: 992px) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__input {
+        height: 56px;
+        width: 100%;
+        border: none;
+        font-size: 16px;
+        font-weight: 400;
+        padding-left: 50px;
+        background-color: #fff;
+        background-image: url(../img/icon-map-pin.svg);
+        background-repeat: no-repeat;
+        background-position: 15px center;
+        background-size: 24px;
+        @media (min-width: 992px) {
+            width: 540px;
+            margin-right: 10px;
+        }
+    }
+
+    &__delivery-time {
+        @media (min-width: 992px) {
+            width: 220px;
+            margin-right: 10px;
+        }
+    }
+
+    &__sign-in {
+        font-size: 14px;
+        @media (min-width: 992px) {
+            width: 100%;
+        }
+        a {
+            color: inherit;
+            
+        }
+    }
+
+    button.submit {
+        font-size: 18px;
+        margin-bottom: 20px;
+        @media (min-width: 992px) {
+            width: 220px;
+        }
+    }
+}

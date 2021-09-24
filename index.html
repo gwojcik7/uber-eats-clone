@@ -36,7 +36,7 @@
               </h4>
             </div>
             <div class="app-cta__bottom">
-              <a href="#" class="button app-cta__link">
+              <a href="#" class="button button--rounded app-cta__link">
                 <img src="img/icon-android.svg" width="16" height="16" alt="Android icon" loading="lazy"> Pobierz aplikację
               </a>
             </div>
@@ -57,24 +57,28 @@
           </a>
         </div>
         <div class="div main-header__right">
-          <a href="#" class="button button--primary sign-in" title="Zaloguj się"> Zaloguj się </a>
+          <a href="#" class="button button--primary button--rounded sign-in" title="Zaloguj się"> Zaloguj się </a>
         </div>
       </header>
       <main class="main-content">
         <section class="hero">
-          <img src="img/uber-eats-bg-1.jpg" alt="background-1">
+          <img class="hero__bg" src="img/uber-eats-bg-1.jpg" srcset="img/uber-eats-bg-1.jpg, img/uber-eats-bg-mobile-1.jpg 400w" alt="background-1">
           <div class="hero__content">
             <h1 class="hero__heading">Zamów śniadania, lunche i obiady.</h1>
             <form class="search" method="GET" action="#">
-              <input type="search" class="search__input" />
-              <div class="search__delivery-dropdown">
-                <button type="button">Dostarcz teraz</button>
-                <ul>
-                  <li>Dostarcz teraz</li>
-                  <li>Zaplanuj na później</li>
-                </ul>
+              <div class="form-control">
+                <input type="search" class="search__input" placeholder="Wpisz adres dostawy" />
               </div>
-              <button type="submit">Wyszukaj restauracje</button>
+              <div class="form-control">
+                <div class="dropdown search__delivery-time">
+                  <button type="button" class="dropdown__btn">Dostarcz teraz</button>
+                  <ul class="dropdown__list">
+                    <li><a href="#">Dostarcz teraz</a></li>
+                    <li><a href="#">Zaplanuj na później</a></li>
+                  </ul>
+                </div>
+              </div>
+              <button type="submit" class="submit button button--secondary button--block">Wyszukaj restauracje</button>
               <p class="search__sign-in">
                 <a href="#" title="Zaloguj się">Zaloguj się</a>, aby korzystać z
                 ostatnich adresów

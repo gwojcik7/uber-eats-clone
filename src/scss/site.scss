@@ -5,6 +5,12 @@
 @import 'components/header';
 @import 'components/main-menu';
 @import 'components/app-cta';
+@import 'components/search';
+@import 'components/dropdown';
+
+/* Sections */
+@import 'sections/hero';
 
 /* Utils */
 @import 'utils/buttons';
+@import 'utils/forms';
